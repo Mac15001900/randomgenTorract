@@ -1,6 +1,6 @@
 //Basic info\\ f_
 $name : Torract character generator
-$description : Generates a random Torract character with a weapon, armor, personality traits, skills, items, and potentially other things.<br>Using names from Orteil's name generator.
+  $description : Generates a random Torract character with a weapon, armor, personality traits, skills, items, and potentially other things.<br>Using names from Orteil's name generator.
 $author : Mac15001900
 $amount : 1
 $button : New character!
@@ -212,6 +212,7 @@ instantly [trusts|distrusts] anyone [[not|] capable of [skills]|who [likes|disli
 takes [an] [length] time to warm up to [people|strangers]
 [enjoys] [socialising|getting to know people] by [playing [board game type] board games|singing|telling [spooky|] stories|inventing crazy stories|complaining about life|practising [skill]] together
 [cannot experience [emotion]|experiences [emotion] very strongly] {20%}
+[never|rarely] refuses a [good|fun|] challange {50%}
 
 
 $opinion
