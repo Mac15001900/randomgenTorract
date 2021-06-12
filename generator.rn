@@ -1365,7 +1365,7 @@ lava
 slime {50%}
 yoghurt {50%}
 [liquid element]
-liquid [[solid element]|[gas element]|[element]] {50%}
+liquid [[solid element]|[metal]|[gas element]|[element]] {50%}
 
 //I kept forgetting which one is it, so now it's both
 $fluid
