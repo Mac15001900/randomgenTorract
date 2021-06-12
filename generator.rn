@@ -957,6 +957,10 @@ torch [ca]
 [box|pack] of tissues
 [an] [[size]|] [color] [toy|] fan [|||enchanted with [ice|[element]] magic]
 [metal] [spoon|fork|butter knife]
+[neodymium|[metal]|horseshoe] magnet
+[[size]|[color]] fridge magnet in the shape of [the letter [Letter]|[an] [fruit]|[an] [animal]|[an] [race]]
+piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plant]|[food]|[[weatherIs]|[sunset|sunrise] over [an]|] [terrain type]|[body] [race]|[night sky|cloud|sunset|sunrise]|]
+[round|square|[color]] pocket mirror
 
 
 
@@ -1491,8 +1495,8 @@ $animal
 
 $pet?
 []
-<b>Riding:</b> [an] [large animal,#pet] that can [large animal skill]<br> {20%}
-<b>Pet:</b> [an] [small animal,#pet] that can [#pet,as skill]<br> {20%}
+<b>Riding:</b> [an] [[body]|] [large animal,#pet] that can [large animal skill]<br> {20%}
+<b>Pet:</b> [an] [[body]|] [small animal,#pet] that can [#pet,as skill]<br> {20%}
 
  
 //'Large' means that you can ride it. Default move value: run
@@ -1538,7 +1542,7 @@ $small animal skill
 navigate using [its [6-10]th sense|its instinct|[element]]
 sense the presence of [danger|magic|[emotion]|[m races]]
 draw the [foe's|enemy's] attention away
-find [fruit][s]
+find [[fruit][s]|[vegetable][s]|water]
 track [[m races]|[large animal][s]]
 [|actually] cast [|very] simple [element] spells {60%}
 play [board game type] board games {25%}
@@ -1658,6 +1662,9 @@ game theory
 group theory
 complex [numbers|planes|dimensions]
 [analytical|] geometry
+
+$letter
+[a|b|c|e|d|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|y|x|z]
 
 //Tests\\ f_
 
