@@ -213,6 +213,7 @@ takes [an] [length] time to warm up to [people|strangers]
 [enjoys] [socialising|getting to know people] by [playing [board game type] board games|singing|telling [spooky|] stories|inventing crazy stories|complaining about life|practising [skill]] together
 [cannot experience [emotion]|experiences [emotion] very strongly] {20%}
 [never|rarely] refuses a [good|fun|] challange {50%}
+secretly plots to one day [evil goal] {10%}
 
 
 $opinion
@@ -618,11 +619,7 @@ $spell element
 
 
 
-//Items descriptors\\ f_
-
-$items
-[item]<br> {25%}
-[item]<br>[items]
+//Descriptors\\ f_
 
 //Countable amount
 $ca
@@ -723,6 +720,13 @@ aged {35%}
 [fairly|] recent
 [brand|] new
 
+$person age
+newborn {25%}
+[very|] young
+middle-aged
+[very|] old
+ancient {25%}
+
 $usefulness
 useless {50%}
 weak
@@ -789,9 +793,13 @@ basso profondo
 
 //Items\\ f_
 
+$items
+[item]<br> {25%}
+[item]<br>[items]
+
 $item
 [food] [ca]
-[material]
+[uca] [material]
 [other item]
 [usefulness] [[stat]|[stat]|[emotion]] potion [ca]
 [element] [liquid container] [ca] {50%}
@@ -858,6 +866,7 @@ excitement
 //e.g. Book about [book topic]
 $book topic
 [element]
+[skill]
 [producing|manufacturing|mining|processing|crafting with] [metal]
 [forging|crafting|using] [|[metal]] [sword type][s] {30%}
 how to [make|craft|create] [an] [weapon] {40%}
@@ -867,27 +876,43 @@ how to deal with [m races] {30%}
 riding [large animal][s] {25%}
 the [culture|customs|traditions|cuisine|gender stereotypes|battling style|history] of [m races]
 the [relations|trade|historical battles] between [two races] {60%}
-[skill]
 playing [board game type] board games [|competetively] {30%}
 
 //e.g. Book with [story]
 $story
-a story about [an] [race] that couldn't [handle|understand] [skill]
-a story about [an] [race] discovering the true meaning of [emotion]
+a story about [protagonist] that couldn't [handle|understand] [skill]
+a story about [protagonist] discovering the true meaning of [emotion]
 a story about a group of [races,#brace] trying to make friends with [#brace,as related]
-a love story between [an] [race] and [an] [race]
+a love story between [an] [race] who [trait] and [an] [race] who [trait]
 [an] [|detailed|[age]] [|auto]biography of [name]
 [the legends of|the stories about] a legendary [weapon]
 a myth about [an] [mysterious|[age]|mystical] [[size]|color|[race]-eating|all-knowing|[weapon type]-wielding] monster that lives in [terrain type][s]
 tales from [an] [town type] in [an] [terrain type] far far away
-a story about a group of [|young] dwarves stumbling on a huge [metal] ore {40%}
+a story about a group of [|young] dwarves stumbling on a huge vein of [metal] ore {40%}
 the story of a beautiful woman who was cursed to [status] anyone that looks [at her|in her eyes] {20%}
 the story of a handsome man who was cursed to [status] anyone that looks [at him|in his eyes] {20%}
 a story about a group of [m races] stranded [on a desert island [where only [fruit][s] grow|made out of [material]|that's slowly sinking]|in a weird dimension where [light|gravity|[science]|[element]] doesn't exist|on top of a magical cloud of [element]]
+an epic story about [protagonist] [trying to save|saving] the world from [cataclysm]
+a story about [an] [race] going on [an] [epic|long|difficult] journey to master [skill]
 
+$protagonist
+[an] [race]
+a [small|] [group|band] of [m races]
+a sentient [animal] {30%}
 
+$cataclysm
+the sky falling down
+the Sun [exploding|imploding]
+a deadly virus
+an evil [[[element]|] wizard|necromancer|demon] trying to [evil goal]
+an army of [evil|corrupted|twisted|possesed] [[races]|[animal][s]|[plant][s]] trying to [evil goal]
 
-
+$evil goal
+[take over|enslave the whole] the world
+[kill|steal the life force of] every [race]
+destroy all magic
+remove all oxygen from the atmosphere {50%}
+put [ingredient] on every pizza {5%}
 
 
 $color
@@ -961,6 +986,8 @@ torch [ca]
 [[size]|[color]] fridge magnet in the shape of [the letter [Letter]|[an] [fruit]|[an] [animal]|[an] [race]]
 piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plant]|[food]|[[weatherIs]|[sunset|sunrise] over [an]|] [terrain type]|[body] [race]|[night sky|cloud|sunset|sunrise]|]
 [round|square|[color]] pocket mirror
+[size] [paint|]brush
+
 
 
 
@@ -1366,6 +1393,9 @@ slime {50%}
 yoghurt {50%}
 [liquid element]
 liquid [[solid element]|[metal]|[gas element]|[element]] {50%}
+[[very] corrosive|[color]] acid {50%}
+[race] blood {20%}
+[color] paint {20%}
 
 //I kept forgetting which one is it, so now it's both
 $fluid
@@ -1426,7 +1456,8 @@ brewing [[stat]|[emotion]] potions
 brewing poisons
 [forging|crafting|using] [|[metal]] [sword type][s]
 [making|bending|creating] [[wood type]|] bows
-[talking to|negotiating with|persuading] [m races]
+[talking to|negotiating with|persuading|bartering with] [m races]
+interrogating [[m races]|]
 [producing|manufacturing|mining|processing|crafting with] [metal]
 seeing in the dark
 navigating [|[terrain type][s]] [||using [element]]
@@ -1438,7 +1469,8 @@ sailing
 swimming
 [scuba|] diving [|for [an] [length] amount of time]
 driving [cars|tanks|trains|horse carts] {30%}
-riding [bikes|motorcycles] {30%}
+riding [bikes|motorcycles|horses|[animal][s]] {30%}
+piloting [helicopters|autogyros|planes|UFOs|spaceships] {20%}
 healing [||using [element]]
 camouflage [||||using [[element]|magic|[science]]]
 leadership
@@ -1456,7 +1488,6 @@ dancing
 [gardening|farming|growing [plant][s]]
 handling [dangerous|hazardous|deadly] [chemicals|creatures|magical artifacts]
 housekeeping
-interrogating [[m races]|]
 jewelerly
 tying knots
 [linguistics|translation]
@@ -1474,6 +1505,7 @@ operating [tanks|planes|airships|submarines|combat mechs] {50%}
 lockpicking
 origami
 meditation
+astronomy
 
 
 
@@ -1643,6 +1675,7 @@ $science
 computer science
 chemistry
 biology {80%}
+astronomy {40%}
 geography {40%}
 philosophy {40%}
 
