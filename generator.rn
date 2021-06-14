@@ -487,7 +487,7 @@ launches a burst of [element] around the caster
 makes [an] [size] [ball|projectile made out|clump] of [element] fall from the sky [|after a [brief|[length]] delay]
 [hurls|throws] [an] [conjured|summoned] [metal] [[sword type]|spear|axe] with [an] [slow|moderate|fast|incredible] speed
 [summons|blasts] [an] [size] cloud of [dust|[color] gas|carbon dioxide|sand] to blind any enemies inside it
-summons [an] [size] minefield [composed of|made out of] [little|tiny|small|large] [[element] mines|[TNT|gunpowder]-based mines|invisibilie mines]
+summons [an] [size] minefield [composed of|made out of] [little|tiny|small|large] [[element] mines|[TNT|gunpowder]-based mines|invisible mines]
 summon [an] [size] thundercloud that hits [all enemies|everybody|anything] within [length] radius with lightnings
 pushes enemies away with a strong pulse of [wind|air|[element]]
 creates [an] [size] area that [status][s] [all enemies|everyone] inside it [|and causes [an] [status] if they stay inside it for too long]
@@ -525,7 +525,7 @@ a spell that [dpse]
 a spell that [dpse] in [an] [length] radius {40%}
 a spell that [dpse] using [element] {30%}
 a counterspell that can negate an enemy [[element]||] spell 
-a powerfull counterspell that can negate an enemy spell and [spell disaster] {20%}
+a powerful counterspell that can negate an enemy spell and [spell disaster] {20%}
 a spell that creates temporary [armour adj] armour made out of [element] {40%}
 a spell that creates [an] [force|[element]] shield with [an] [length] radius {40%}
 a spell that creates [an] [|[armour adj]] [material] [wall|barricade|cover|tower] {40%}
@@ -557,13 +557,13 @@ a transmutation spell that turns [animal][s] into [animal][s] {20%}
 a transmutation spell that turns [metal] into [metal] {30%}
 a transmutation spell that turns [m races] into [races] {15%}
 a transmutation spell that turns [[animal][s]|[material]|[m races]] into [[animal][s]|[material]|[races]] {20%}
-a spell that summons a [muse|parrot|floating mouth|[animal]] which sings [beutiful|soothing|energetic|terrible] songs in [voice tone] {20%}
+a spell that summons a [muse|parrot|floating mouth|[animal]] which sings [beautiful|soothing|energetic|terrible] songs in [voice tone] {20%}
 a spell that turns all the water with [an] [length] range into [green|black|[color]|nice|great] tea {5%}
 a spell that grants the caster 360° vision {30%}
 a spell that allows the caster to see [in infrared|in ultraviolet|in the dark|ghosts] {50%}
 a spell that makes any food taste like [[ingredient]|[ice cream flavour]] {25%}
-a spell that turns [an object|a person] [color] [for [spell duration]|temporarily|pernamently] {25%}
-a spell that makes an object [much|] [smaller|bigger] [for [spell duration]|temporarily|pernamently] {25%}
+a spell that turns [an object|a person] [color] [for [spell duration]|temporarily|permanently] {25%}
+a spell that makes an object [much|] [smaller|bigger] [for [spell duration]|temporarily|permanently] {25%}
 an illusion spell that conjures an image of [an] [[armed|] [body] [race]|[animal]|[plant]|[extreme weather]] {50%}
 a spell that [paints|conjures] [an] [nice|beautiful|terrible|[color]] portrait of [a target|the caster] {25%}
 
@@ -580,7 +580,7 @@ is [powered by]
 drains [uca] energy from the caster
 temporarily lowers the caster's [stat]
 produces a [moderately|somewhat|very] unpleasant smell
-attracts [some|a lot of|inconviniently many] [[animal][s]|[bugs|bees|wasps|mosquitoes|moths]] to the caster
+attracts [some|a lot of|inconveniently many] [[animal][s]|[bugs|bees|wasps|mosquitoes|moths]] to the caster
 causes nearby plants to [dry|wither|burn]
 [often|always] makes the caster [very|really] hungry
 might damage the caster's memories
@@ -591,7 +591,7 @@ makes the caster's skin turn [color] for a while
 
 $spell disaster
 make the caster [explode|implode]
-make the caster lose their sense of [sense] [for [an] [length] time|pernamently]
+make the caster lose their sense of [sense] [for [an] [length] time|permanently]
 turn the caster into [[element]|[an] [animal]|[an] [plant]|[material]]
 fry the caster's brain
 cause the reverse of the intended effect
@@ -712,7 +712,7 @@ distant
 remote
 
 $age
-pre-historical {40%}
+prehistoric {40%}
 ancient
 antique
 aged {35%}
@@ -876,7 +876,7 @@ how to deal with [m races] {30%}
 riding [large animal][s] {25%}
 the [culture|customs|traditions|cuisine|gender stereotypes|battling style|history] of [m races]
 the [relations|trade|historical battles] between [two races] {60%}
-playing [board game type] board games [|competetively] {30%}
+playing [board game type] board games [|competitively] {30%}
 
 //e.g. Book with [story]
 $story
@@ -894,23 +894,26 @@ the story of a handsome man who was cursed to [status] anyone that looks [at him
 a story about a group of [m races] stranded [on a desert island [where only [fruit][s] grow|made out of [material]|that's slowly sinking]|in a weird dimension where [light|gravity|[science]|[element]] doesn't exist|on top of a magical cloud of [element]]
 an epic story about [protagonist] [trying to save|saving] the world from [cataclysm]
 a story about [an] [race] going on [an] [epic|long|difficult] journey to master [skill]
+a story about [protagonist] trying to stop [an] [conflict|war|feud] between [races] and [races]
 
 $protagonist
 [an] [race]
 a [small|] [group|band] of [m races]
 a sentient [animal] {30%}
+the ghost of a dead [race] {20%}
+an artificial intelligence [|that just gained consciousness] {10%}
 
 $cataclysm
 the sky falling down
 the Sun [exploding|imploding]
 a deadly virus
 an evil [[[element]|] wizard|necromancer|demon] trying to [evil goal]
-an army of [evil|corrupted|twisted|possesed] [[races]|[animal][s]|[plant][s]] trying to [evil goal]
+an army of [evil|corrupted|twisted|possessed] [[races]|[animal][s]|[plant][s]] trying to [evil goal]
 
 $evil goal
 [take over|enslave the whole] the world
 [kill|steal the life force of] every [race]
-destroy all magic
+destroy [all magic|everything that's magical|all magic users]
 remove all oxygen from the atmosphere {50%}
 put [ingredient] on every pizza {5%}
 
@@ -971,7 +974,7 @@ throwable [CD|DVD|Blue-ray] disc [ca]
 [an] [liquid container] of [fuel]
 [|levitating] ball that emits [an] [weak|strong] [|[color]] light
 [condition] pair of [||[color]|[emotion]] goggles
-[condition] jetpack [fuelled by [fuel]|that's [powered by]]
+[condition] jetpack [fueled by [fuel]|that's [powered by]]
 plush [animal]
 d[4|6|12|20|100|[1-20]|[1-100]] dice [ca]
 metal detector [|that's [powered by]]
@@ -1005,8 +1008,8 @@ water [liquid container]
 [loaf|slice] of [bread]
 a roll of [cheese] cheese {75%}
 [jar|bottle|[liquid container]] of soup with [ingredient][|, [ingredient]][|, [ingredient]][|, [ingredient]] and [ingredient]
-[fruit] flavoured [candy|sweets|gum|lolipop|gummy [bears|[animal][s]]] {50%}
-bar of [white|dark|milk] chocolate [|with [penauts|caramel|gummies|mint]] {40%}
+[fruit] flavoured [candy|sweets|gum|lollipop|gummy [bears|[animal][s]]] {50%}
+bar of [white|dark|milk] chocolate [|with [peanuts|caramel|gummies|mint]] {40%}
 [[container] with|] [chocolate|peanut butter|macadamia|white chocolate|dark chocolate|delicious|terrible|] cookies {25%}
 [box|[container]] of breakfast cereal {50%}
 sandwich with [bread], [sandwich ingredient][|, [sandwich ingredient]][|, [sandwich ingredient]][|, [sandwich ingredient]] and [sandwich ingredient]
@@ -1070,7 +1073,7 @@ almond
 praline pecan
 maple
 butterscotch
-cinamon
+cinnamon
 brownie
 rocky road
 
@@ -1390,7 +1393,7 @@ lava
 [cooking|] oil {70%}
 [fruit] juice {70%}
 slime {50%}
-yoghurt {50%}
+yogurt {50%}
 [liquid element]
 liquid [[solid element]|[metal]|[gas element]|[element]] {50%}
 [[very] corrosive|[color]] acid {50%}
@@ -1488,7 +1491,7 @@ dancing
 [gardening|farming|growing [plant][s]]
 handling [dangerous|hazardous|deadly] [chemicals|creatures|magical artifacts]
 housekeeping
-jewelerly
+jewelery
 tying knots
 [linguistics|translation]
 [economics|market analysis|investing]
@@ -1502,7 +1505,7 @@ playing [football|basketball|volleyball|hockey|Cookie Clicker|tennis ]
 operating [tanks|planes|airships|submarines|combat mechs] {50%}
 [first aid|medicine|surgery]
 [drawing|painting]
-lockpicking
+lock picking
 origami
 meditation
 astronomy
@@ -1645,7 +1648,7 @@ fig
 ironwood
 
 $flower
-gloden wattle
+golden wattle
 [red|[color]|] rose
 lily of the valley
 cornflower
