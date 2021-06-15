@@ -208,7 +208,7 @@ has a favourite [color - [color]|animal - [animal]|flower - [flower]|plant - [pl
 [enjoys] telling [story]
 has a split personality; the other one [trait] {50%}
 thinks that [opinion]
-instantly [trusts|distrusts] anyone [[not|] capable of [skills]|who [likes|dislikes] their cooking|who compliments them|with [color] [hair|skin]|with a good taste of humor] {60%}
+instantly [trusts|distrusts] anyone [[not|] capable of [skill]|who [likes|dislikes] their cooking|who compliments them|with [color] [hair|skin]|with a good taste of humor] {60%}
 takes [an] [length] time to warm up to [people|strangers]
 [enjoys] [socialising|getting to know people] by [playing [board game type] board games|singing|telling [spooky|] stories|inventing crazy stories|complaining about life|practising [skill]] together
 [cannot experience [emotion]|experiences [emotion] very strongly] {20%}
@@ -242,7 +242,8 @@ $weapon
 [weapon adj] [[color]|[element]|[science]] laser {50%}
 [weapon adj] [projectile] thrower {30%}
 [weapon adj] crystal of [applied||] [science] {25%}
-[[weapon adj]|[length]] [[wood type]|] [battle|[element]|] stick {25%}
+[[weapon adj]|[length]] [wood type] [battle|[element]|] stick {25%}
+[[weapon adj]|[length]] [wood type] [spear|pike|sarissa] with [an] [[metal]|[material]] tip {25%}
 [weapon adj] [metal] [metal tool] {25%}
 [weapon adj] sling using [pebbles|[color] marbles|[stone type]|[balls|pieces of] [element]|[projectile]] as ammunition {25%}
 [weapon adj] [[wood type]|[material]] boomerang {20%}
@@ -250,21 +251,25 @@ $weapon
 [[weapon adj]|[thick|heavy|well-balanced|massive|large|weighty|considerable]] [[wood type]|[material]] club {25%}
 [clublike object] used as a club {20%}
 [weapon adj] [metal] yo-yo [with spikes|that's on fire|enchanted with [element]] {10%}
+bare [hands|fists] {20%}
 
 $weapon adj
-deadly
+[deadly|lethal]
 murderous
-harmless {50%}
+[mostly|] harmless {50%}
 dangerous
 [size]
 [age]
+[condition]
 broken {50%}
 [intelligent|smart|self-aware]
 magical {20%}
 monstrous
-[evil|funny|strange|suspicious]-looking
+[evil|funny|strange|weird|suspicious]-looking
 high-tech {25%}
 poorly constructed
+shiny {50%}
+beautifully decorated {30%}
 legendary {1%}
 
 $projectile
@@ -386,6 +391,7 @@ $enchanted?
 [enchant] {40%}
 $enchant
 , enchanted with [element] magic
+, enchanted to grant the user [increased [stat]|improved [sense]] {70%}
 , enchanted with [element] and [element] magic {25%}
 , boosted with [science] {20%}
 
@@ -503,7 +509,7 @@ emits a blinding flash of [color] light
 makes [spell multi target] [somewhat|very|really|incredibly] [hungry|tired]
 summons a [large|huge|[size]] wave of [liquid] moving [in a chosen direction|towards enemies|towards [spell multi target]]
 [disables|weakens|distorts] enemy sense of [sense]
-[throws|hurls] [spell multi target] [veryH] [high up in the air|[away from|towards] the caster]
+[throws|hurls] [spell multi target] [[veryH] high up in the air|[[very] far away from|towards] the caster]
 
 
 $offensive spell
@@ -538,11 +544,12 @@ a spell that makes the caster disappear for [spell duration]
 
 
 $utility spell
-a spell that conjures [element]
 a spell that [conjures|summons] [an] [item]
+a spell that conjures [element] {50%}
 a spell that summons [an] [animal] {50%}
 a spell that repairs [weapon type][s] {50%}
 a [length]-range spell that teleports the caster [to a chosen destination|randomly|away from danger|to an ally|towards the nearest [terrain type]] {30%}
+a spell that [conjures|summons] a [magical|flying|[color]] [train|bus|[horse|[large animal]] carriage] that can carry passengers [away to safety|to the nearest battle|to the nearest [terrain type]|away in a random direction|to a chosen [distance] spot] {30%}
 a levitation spell that lasts for [length] time {30%}
 a spell that allows the caster to [talk to|communicate with] [others who use it|[m races]|people within [an] [length] range|their loved ones|the dead|animals|[animal][s]|plants|[plant][s]|[element]] {30%}
 a spell that creates [an] [short-living|[size]||] portal to [anywhere within [an] [length] range|caster's home|safety|the nearest [terrain type]] {30%}
@@ -566,6 +573,10 @@ a spell that turns [an object|a person] [color] [for [spell duration]|temporaril
 a spell that makes an object [much|] [smaller|bigger] [for [spell duration]|temporarily|permanently] {25%}
 an illusion spell that conjures an image of [an] [[armed|] [body] [race]|[animal]|[plant]|[extreme weather]] {50%}
 a spell that [paints|conjures] [an] [nice|beautiful|terrible|[color]] portrait of [a target|the caster] {25%}
+a spell that tells the caster what time is it {15%}
+a spell that [summons|conjures] [an] [[size]|[color]|transparent] image of a compass that points to [the nearest battle|the nearest [terrain type]|the thing the caster desires the most|the nearest source of [water|food|[element]|[material]]|a chosen [city|person|place]] {30%}
+
+
 
 
 $spell problem
@@ -575,19 +586,21 @@ only works [at [1-12][am|pm]|during the [day|night]|in the [morning|afternoon|ev
 can only be cast [in|near] [an] [terrain type]
 requires [fuel] to cast
 requires [uca] [[material]|[plant][s]] to cast
+can only be cast after eating a lot of [ingredient]
 is [powered by]
 [status][s] the caster
 drains [uca] energy from the caster
 temporarily lowers the caster's [stat]
-produces a [moderately|somewhat|very] unpleasant smell
+produces a [moderately|somewhat|[very]] unpleasant smell
 attracts [some|a lot of|inconveniently many] [[animal][s]|[bugs|bees|wasps|mosquitoes|moths]] to the caster
 causes nearby plants to [dry|wither|burn]
-[often|always] makes the caster [very|really] hungry
+[often|always] makes the caster [[very]|really] hungry
 might damage the caster's memories
 turns the caster into [an] [plant] for [spell duration] after it finishes
 makes the caster drunk
 makes the caster strongly attracted to [[m races]|anything [color]|the nearest [person|enemy]] for a while
 makes the caster's skin turn [color] for a while
+requires [2-5] mages working simultaneously to cast
 
 $spell disaster
 make the caster [explode|implode]
@@ -602,7 +615,7 @@ erase the caster's memory
 
 $>spell
 [offensive spell] [||||but [spell problem]]
-[utility spell] [||||but [spell problem]] {60%}
+[utility spell] [||||but [spell problem]] {70%}
 [defensive spell] [||||but [spell problem]] {50%}
 
 $magic info?
@@ -640,13 +653,6 @@ a bunch of
 a lot of
 a ton of {35%}
 
-$length
-very short {30%}
-short
-medium
-long
-really long {30%}
-
 //Words synonymous with 'very', but in various intensities. E.g. "this building is [very] tall and [very] important"
 $very
 slightly
@@ -668,12 +674,19 @@ insanely {20%}
 
 //Words synonymous with 'very', but only in high intensities
 $veryH
-somewhat
+somewhat {50%}
 very
 really
 incredibly
 extremely {25%}
 insanely {20%}
+
+$length
+[veryH] short {50%}
+short
+medium
+long
+[veryH] long {50%}
 
 $size
 microscopic {30%}
@@ -681,6 +694,7 @@ tiny
 small
 medium-sized
 medium-sized
+[very] big
 large
 huge {50%}
 enormous {25%}
@@ -688,8 +702,8 @@ gigantic {25%}
 
 $big
 sizeable
-big
-large
+[[veryH]|] big
+[[veryH]|] large
 huge
 enormous
 gigantic
@@ -697,10 +711,10 @@ gigantic
 //E.g. spell that allows you to see what is happening [distanceAdv]
 $distanceAdv
 nearby
-[very|] close
+[[very]|] close
 not so far away
-far away
-in a distance
+[[veryH]|] far away
+in a distance {50%}
 
 //E.g. spell that allows you to see [distance] future
 $distance
@@ -708,15 +722,15 @@ near
 close
 not [so|] far
 far
-distant
-remote
+[[veryH]|] distant
+remote {50%}
 
 $age
 prehistoric {40%}
 ancient
 antique
 aged {35%}
-[very|] old
+[[very]|] old
 [fairly|] recent
 [brand|] new
 
@@ -736,7 +750,7 @@ strong
 great {50%}
 super effective {50%}
 awesome {25%}
-[[projectile adj]|[weapon adj]]
+[[projectile adj]|[weapon adj]] {50%}
 
 $condition
 [|brand] new {50%}
@@ -747,7 +761,7 @@ not so new
 damaged
 aged {75%}
 worn out {50%}
-mostly destroyed {30%}
+[nearly|mostly] destroyed {30%}
 
 $speed
 slothful {20%}
@@ -779,17 +793,6 @@ powered by singing in [voice tone] {20%}
 powered by [an] [simple|difficult|[3-10] day|arcane] ritual requiring [item] {30%}
 powered by sacrificing [animal][s] {25%}
 
-$voice tone
-soprano
-sopranino
-mezzo-soprano
-alto
-contralto
-countertenor
-tenor
-baritone
-bass
-basso profondo
 
 //Items\\ f_
 
@@ -867,16 +870,18 @@ excitement
 $book topic
 [element]
 [skill]
+[applied||] [science]
 [producing|manufacturing|mining|processing|crafting with] [metal]
 [forging|crafting|using] [|[metal]] [sword type][s] {30%}
 how to [make|craft|create] [an] [weapon] {40%}
 how to deal with [m races] {30%}
-[applied||] [science]
 [hunting|cooking|behaviour of|taming|] [animal][s]
 riding [large animal][s] {25%}
 the [culture|customs|traditions|cuisine|gender stereotypes|battling style|history] of [m races]
 the [relations|trade|historical battles] between [two races] {60%}
 playing [board game type] board games [|competitively] {30%}
+[parenting|raising|taking care of [young|old]] [races] {30%}
+[functioning|fighting|helping those] without the sense of [sense] {30%}
 
 //e.g. Book with [story]
 $story
@@ -941,6 +946,8 @@ hammer
 [|hand]saw
 crowbar
 wrench
+pliers {50%}
+wire cutter {25%}
 
 $coins
 [|[color]] [metal] coins of [low|good|high|unknown] value
@@ -957,7 +964,7 @@ can opener
 comb
 toothbrush
 [tube|[liquid container]] of [mint|[fruit] flavoured|] toothpaste
-map of nearby [terrain type][s]
+map of nearby [[terrain type][s]|cities]
 [color] umbrella
 trap for [[small animal][s]|[large animal][s]|[m races]]
 [leather|[light material]] wallet filled with [coins]
@@ -971,11 +978,11 @@ throwable [CD|DVD|Blue-ray] disc [ca]
 [ca2] sheets of A[0-6] paper
 [color] fountain pen
 [size] [rubber|eraser]
-[an] [liquid container] of [fuel]
 [|levitating] ball that emits [an] [weak|strong] [|[color]] light
 [condition] pair of [||[color]|[emotion]] goggles
 [condition] jetpack [fueled by [fuel]|that's [powered by]]
 plush [animal]
+stuffed [small animal]
 d[4|6|12|20|100|[1-20]|[1-100]] dice [ca]
 metal detector [|that's [powered by]]
 [bottle|[liquid container]] of sunscreen
@@ -987,9 +994,14 @@ torch [ca]
 [metal] [spoon|fork|butter knife]
 [neodymium|[metal]|horseshoe] magnet
 [[size]|[color]] fridge magnet in the shape of [the letter [Letter]|[an] [fruit]|[an] [animal]|[an] [race]]
-piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plant]|[food]|[[weatherIs]|[sunset|sunrise] over [an]|] [terrain type]|[body] [race]|[night sky|cloud|sunset|sunrise]|]
+piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plant]|[food]|[[weatherIs]|[sunset|sunrise] over [an]|] [terrain type]|[body] [race]|[night sky|cloud|sunset|sunrise]]
 [round|square|[color]] pocket mirror
 [size] [paint|]brush
+[metal] horseshoe [ca]
+[[container] of|[uca]] [[metal]|[material]] nails
+
+
+
 
 
 
@@ -1000,6 +1012,7 @@ piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plan
 //Food\\ f_
 
 $>food
+[uca] [ingredient]
 [dried|] [[fruit]|[vegetable]] [can|jar|[container]|]
 [[metal]|] can of [vegetable][s]
 water [liquid container]
@@ -1235,7 +1248,7 @@ a diving helmet
 
 $armour material
 [metal]
-[metal] chainmail
+[metal] chainmail {75%}
 leather
 iron {50%}
 steel {25%}
@@ -1282,7 +1295,6 @@ adamantium
 mithril
 orichalcum
 aluminium
-amelinium
 obsidian
 ruby
 sapphire
@@ -1364,11 +1376,11 @@ air
 silk
 leather
 ice
-[liquid|] hydrogen
+[white|dark|milk] chocolate
 
 
 $high-tech material
-[white|dark|green|yellow|grey|jar-jar] matter
+[white|dark|red|[color]|grey|jar-jar] matter
 vacuum
 [particle] concentrate
 [science]
@@ -1389,16 +1401,18 @@ vibranium
 
 $liquid
 water
-lava
+[liquid element]
+[fuel] {50%}
+lava {70%}
 [cooking|] oil {70%}
 [fruit] juice {70%}
-slime {50%}
-yogurt {50%}
-[liquid element]
 liquid [[solid element]|[metal]|[gas element]|[element]] {50%}
 [[very] corrosive|[color]] acid {50%}
+slime {40%}
+yogurt {40%}
+honey {40%}
+[color] paint {40%}
 [race] blood {20%}
-[color] paint {20%}
 
 //I kept forgetting which one is it, so now it's both
 $fluid
@@ -1463,7 +1477,7 @@ brewing poisons
 interrogating [[m races]|]
 [producing|manufacturing|mining|processing|crafting with] [metal]
 seeing in the dark
-navigating [|[terrain type][s]] [||using [element]]
+navigation [|[terrain type][s]] [||using [element]]
 surviving in [terrain type][s]
 [creative|technical] writing
 flirting [|with [m races]]
@@ -1475,7 +1489,7 @@ driving [cars|tanks|trains|horse carts] {30%}
 riding [bikes|motorcycles|horses|[animal][s]] {30%}
 piloting [helicopters|autogyros|planes|UFOs|spaceships] {20%}
 healing [||using [element]]
-camouflage [||||using [[element]|magic|[science]]]
+camouflage [||using plants|using [[element]|magic|[science]]]
 leadership
 singing in [voice tone]
 accounting
@@ -1504,11 +1518,12 @@ playing [football|basketball|volleyball|hockey|Cookie Clicker|tennis ]
 //Why does tennis have a spacebar after it? It's a long story (but TLDR, it avoids a bug)
 operating [tanks|planes|airships|submarines|combat mechs] {50%}
 [first aid|medicine|surgery]
-[drawing|painting]
+[drawing|painting] [|portraits|still life|animals|landscapes|[races]|[terrain type][s]]
 lock picking
 origami
 meditation
 astronomy
+[therapy|counseling]
 
 
 
@@ -1602,6 +1617,7 @@ valley {50%}
 [ice||] desert {50%}
 ocean {50%}
 sea {50%}
+beach {25%}
 lake {50%}
 tundra {50%}
 taiga {50%}
@@ -1635,7 +1651,7 @@ $plant
 [flower]
 [vegetable]
 [fruit] [bush|tree] {50%}
-grass {20%}
+[[color]||] grass {20%}
 
 $other tree
 olive
@@ -1646,6 +1662,7 @@ banyan
 palm
 fig
 ironwood
+[element]wood
 
 $flower
 golden wattle
@@ -1670,6 +1687,11 @@ forget-me-not
 
 //Other\\ f_
 
+$thing
+[animal]
+[ingredient]
+[material]
+[race]
 
 $science
 [math|mathematics]
@@ -1701,6 +1723,18 @@ complex [numbers|planes|dimensions]
 
 $letter
 [a|b|c|e|d|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|y|x|z]
+
+$voice tone
+soprano
+sopranino
+mezzo-soprano
+alto
+contralto
+countertenor
+tenor
+baritone
+bass
+basso profondo
 
 //Tests\\ f_
 
