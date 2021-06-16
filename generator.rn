@@ -193,6 +193,7 @@ is [veryI] lazy
 is [veryI] confident
 is [veryI] stubborn
 is [veryI] open-minded
+is [veryI] [vain|concerned about their appearance]
 is [vegetarian|vegan]
 has a [size] stammer {30%}
 is a kleptomaniac {30%}
@@ -208,12 +209,13 @@ has a favourite [color - [color]|animal - [animal]|flower - [flower]|plant - [pl
 [enjoys] telling [story]
 has a split personality; the other one [trait] {50%}
 thinks that [opinion]
-instantly [trusts|distrusts] anyone [[not|] capable of [skill]|who [likes|dislikes] their cooking|who compliments them|with [color] [hair|skin]|with a good taste of humor] {60%}
+instantly [trusts|distrusts] anyone [[not|] capable of [skill]|who [likes|dislikes] their cooking|who compliments them|with [color] [hair|skin]|with a good sense of humor] {60%}
 takes [an] [length] time to warm up to [people|strangers]
 [enjoys] [socialising|getting to know people] by [playing [board game type] board games|singing|telling [spooky|] stories|inventing crazy stories|complaining about life|practising [skill]] together
 [cannot experience [emotion]|experiences [emotion] very strongly] {20%}
 [never|rarely] refuses a [good|fun|] challange {50%}
 secretly plots to one day [evil goal] {10%}
+finds [sitting around a campfire|a long journey|the heat of battle|working on something together|relaxing in a tavern|the middle of a night] to be the best time to socialise
 
 
 $opinion
@@ -238,7 +240,7 @@ $weapon
 [weapon adj] [[material]|[metal]] [sword type][[enchanted?]|]
 [weapon adj] gun that [can shoot|shoots] [projectile  adj] [projectile] [gun adv]
 [weapon adj] [element][-[element]|||] [scepter|rod|wand]
-[weapon adj] [wood type] bow[ infused with [[material]|[element]]|||][, with [element] arrows||] {50%}
+[weapon adj] [wood type] [short|long|]bow[ infused with [[material]|[element]]|||][, with [element] arrows||] {50%}
 [weapon adj] [[color]|[element]|[science]] laser {50%}
 [weapon adj] [projectile] thrower {30%}
 [weapon adj] crystal of [applied||] [science] {25%}
@@ -342,9 +344,10 @@ $secondary weapon?
 []
 <b>Secondary weapon:</b> [secondary weapon]<br>  {35%}
 $secondary weapon
-[weapon adj] [[element]|||] [sword type]
+[weapon adj] [[element]|||] [metal] [sword type]
 [skill level] [element] magic
 [weapon adj] [metal] throwing [daggers|knives]
+[size] [[wood type]|[metal]] [shield|long shield|buckler]
 
 
 //Armour\\ f_
@@ -477,6 +480,14 @@ anything that moves {70%}
 any [m races]
 anyone wearing something [color] {25%}
 
+$spell friendly target
+the caster
+the target
+anyone touching the caster {40%}
+everyone within [an] [distance] distance from the caster {30%}
+any nearby [m races] {25%}
+anyone wearing something [color] {25%}
+
 $sose
 [special offensive spell effect]
 $special offensive spell effect
@@ -563,7 +574,7 @@ a transmutation spell that polymorphs enemies into [animal][s] for a [length] ti
 a transmutation spell that turns [animal][s] into [animal][s] {20%}
 a transmutation spell that turns [metal] into [metal] {30%}
 a transmutation spell that turns [m races] into [races] {15%}
-a transmutation spell that turns [[animal][s]|[material]|[m races]] into [[animal][s]|[material]|[races]] {20%}
+a transmutation spell that turns [thing][s] into [thing][s] {20%}
 a spell that summons a [muse|parrot|floating mouth|[animal]] which sings [beautiful|soothing|energetic|terrible] songs in [voice tone] {20%}
 a spell that turns all the water with [an] [length] range into [green|black|[color]|nice|great] tea {5%}
 a spell that grants the caster 360° vision {30%}
@@ -575,7 +586,9 @@ an illusion spell that conjures an image of [an] [[armed|] [body] [race]|[animal
 a spell that [paints|conjures] [an] [nice|beautiful|terrible|[color]] portrait of [a target|the caster] {25%}
 a spell that tells the caster what time is it {15%}
 a spell that [summons|conjures] [an] [[size]|[color]|transparent] image of a compass that points to [the nearest battle|the nearest [terrain type]|the thing the caster desires the most|the nearest source of [water|food|[element]|[material]]|a chosen [city|person|place]] {30%}
-
+a spell that cooks [an] [quality] [dish|soup] out of any available ingredients [|and conjures some matching spices] {30%}
+a spell that can make [an] [size] object [nearly|almost|] weightless {30%}
+a spell that waters all [plants|[plant][s]] in a [length] radius {30%}
 
 
 
@@ -751,6 +764,14 @@ great {50%}
 super effective {50%}
 awesome {25%}
 [[projectile adj]|[weapon adj]] {50%}
+
+$quality
+terrible {40%}
+[[very]|] bad
+[passable|nice]
+[[very]|] good
+great {70%}
+amazing {40%}
 
 $condition
 [|brand] new {50%}
@@ -999,6 +1020,7 @@ piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plan
 [size] [paint|]brush
 [metal] horseshoe [ca]
 [[container] of|[uca]] [[metal]|[material]] nails
+[[size] drum|[wood type] [guitar|violin|mandolin|viola]|[metal] flute|[metal] [trumpet|trombone|bugle]]
 
 
 
@@ -1374,7 +1396,6 @@ concrete
 earth
 air
 silk
-leather
 ice
 [white|dark|milk] chocolate
 
@@ -1411,6 +1432,7 @@ liquid [[solid element]|[metal]|[gas element]|[element]] {50%}
 slime {40%}
 yogurt {40%}
 honey {40%}
+liquid [white|dark|milk|] chocolate {40%}
 [color] paint {40%}
 [race] blood {20%}
 
@@ -1689,6 +1711,7 @@ forget-me-not
 
 $thing
 [animal]
+[plant]
 [ingredient]
 [material]
 [race]
