@@ -6,6 +6,7 @@ $amount : 1
 $button : New character!
 $picture : https://i.imgur.com/RmpzFuO.png
 //Shortened URL:  https://orteil.dashnet.org/randomgen/?gen=https://bit.ly/3vgu1hB
+//Feel free to use this generator or its parts in your own stuff, as long as you credit me :)
 
 //Names\\ f_
 
@@ -43,22 +44,28 @@ human {60%}{related:[[centaur|elf|dwarf|giant|[driad|nayad|robot]]]}
 [not human]
 
 $not human
-[dark|high|] elf {40%}{related:[[draids|nayads]]}
-dwarf {34%}{related:[[centaurs|golems]]}
-goblin {30%}{related:[[orcs|kobolds]]}
-troll {30%}{related:[[goblins|orcs]]}
-ogre {15%}{related:[[trolls|orcs]]}
-orc {30%}{related:[[trolls|goblins]]}
-golem {30%}{related:[[centaurs|dwarves]]}
-centaur {30%}{related:[[golems|giants]]}
-giant {20%}{related:[[trolls|ogres]]}
-kobold {10%}{related:[[goblins|orcs]]}
-demon {10%}{related:imps}
-robot {10%}{related:[humans|giants]}
-mermaid {10%}{related:[driads|[|flying] octopuses]}
-[flying|] octopus {5%}{related:mermaids}
-driad {5%}{related:[elfs|nayads]}
-nayad {5%}{related:[elfs|driads]}
+[dark|high|] elf {related:[draids|nayads]}
+dwarf {related:[halflings|golems]}
+goblin {60%}{related:[orcs|kobolds]}
+troll {60%}{related:[goblins|orcs]}
+ogre {30%}{related:[trolls|orcs]}
+orc {60%}{related:[trolls|goblins]}
+golem {60%}{related:[robots|dwarves]}
+centaur {60%}{related:[golems|giants]}
+giant {40%}{related:[trolls|ogres]}
+satyr {40%}{related:[elfs|driads]}
+kobold {20%}{related:[goblins|orcs]}
+demon {20%}{related:imps}
+robot {20%}{related:[humans|giants]}
+mermaid {10%}{related:[tritons|[|flying] octopuses]}
+triton {10%}{related:[mermaids|[|flying] octopuses]}
+cyclops {20%}{related:[giants|trolls]}
+fairy {20%}{related:[elfs|gnomes]}
+gnome {20%}{related:[halflings|fairies]}
+halfling {20%}{related:[gnomes|dwarfs]}
+[flying|] octopus {10%}{related:mermaids}
+driad {10%}{related:[satyrs|nayads]}
+nayad {10%}{related:[satyrs|driads]}
 
 $race
 [race main]
@@ -81,22 +88,28 @@ $two races
 
 //Yes, this list is a thing. Attribute bugs left me no choice. Sigh.
 $not humans
-[dark|high|] elfs {40%}{related:[[draids|nayads]]}
-dwarves {34%}{related:[[centaurs|golems]]}
-goblins {30%}{related:[[orcs|kobolds]]}
-trolls {30%}{related:[[goblins|orcs]]}
-ogres {15%}{related:[[trolls|orcs]]}
-orcs {30%}{related:[[trolls|goblins]]}
-golems {30%}{related:[[centaurs|dwarves]]}
-centaurs {30%}{related:[[golems|giants]]}
-giants {20%}{related:[[trolls|ogres]]}
-kobolds {10%}{related:[[goblins|orcs]]}
-demons {10%}{related:imps}
-robots {10%}{related:[humans|giants]}
-mermaids {10%}{related:[driads|[|flying] octopuses]}
-[flying|] octopuses {5%}{related:mermaids}
-driads {5%}{related:[elfs|nayads]}
-nayads {5%}{related:[elfs|driads]}
+[dark|high|] elfs {related:[draids|nayads]}
+dwarves {related:[halflings|golems]}
+goblins {60%}{related:[orcs|kobolds]}
+trolls {60%}{related:[goblins|orcs]}
+ogres {30%}{related:[trolls|orcs]}
+orcs {60%}{related:[trolls|goblins]}
+golems {60%}{related:[robots|dwarves]}
+centaurs {60%}{related:[golems|giants]}
+giants {40%}{related:[trolls|ogres]}
+satyrs {40%}{related:[elfs|driads]}
+kobolds {20%}{related:[goblins|orcs]}
+demons {20%}{related:imps}
+robots {20%}{related:[humans|giants]}
+mermaids {10%}{related:[tritons|[|flying] octopuses]}
+tritons {10%}{related:[mermaids|[|flying] octopuses]}
+cyclopses {20%}{related:[giants|trolls]}
+fairies {20%}{related:[elfs|gnomes]}
+gnomes {20%}{related:[halflings|fairies]}
+halflings {20%}{related:[gnomes|dwarfs]}
+[flying|] octopuses {10%}{related:mermaids}
+driads {10%}{related:[satyrs|nayads]}
+nayads {10%}{related:[satyrs|driads]}
 
 
 $gender
@@ -175,7 +188,7 @@ $>trait
 [[attitude]|[enjoys]|[always wanted|really wants] to learn|is [veryH] passionate about|[attitude] people capable of] [skill]
 [sometimes|often|always] talks to [plants|animals|[animal][s]]
 [attitude] being around [other people|[m races]]
-[always carries around their favourite|has a sentimental attachment to [an]] [item] {50%}
+[always carries around their favourite|has a sentimental attachment to [an]] [other item] {50%}
 finds it [veryI] difficult to understand [other people|[m races]]
 is [veryH] afraid of [the dark|spiders|insects|magic|dragons|being alone|blood|enclosed spaces|fire|[element]|loud noises|[animal][s]|[m races]|death|deep water|machines|the number [2-20]|the sky falling down]
 is [somewhat|very] absent-minded and has trouble focusing on one thing for too long {50%}
@@ -433,6 +446,8 @@ $toxin effect
 full muscle relaxation {50%}
 [an] [slow [|and painful]|inevitable|quick|almost instant] death {40%}
 
+$potion effect
+[increases|improves]
 
 $damages
 damages
@@ -588,7 +603,8 @@ a spell that tells the caster what time is it {15%}
 a spell that [summons|conjures] [an] [[size]|[color]|transparent] image of a compass that points to [the nearest battle|the nearest [terrain type]|the thing the caster desires the most|the nearest source of [water|food|[element]|[material]]|a chosen [city|person|place]] {30%}
 a spell that cooks [an] [quality] [dish|soup] out of any available ingredients [|and conjures some matching spices] {30%}
 a spell that can make [an] [size] object [nearly|almost|] weightless {30%}
-a spell that waters all [plants|[plant][s]] in a [length] radius {30%}
+a spell that [waters|fertilises] all [plants|[plant][s]] in a [length] radius {30%}
+a spell that makes [plants|[plant][s]] grow [faster|bigger] {30%}
 a spell that allows [the caster|the target] to breathe [underwater|in [liquid]] [|for a [length] time] {30%}
 
 
@@ -913,7 +929,7 @@ a story about a group of [races,#brace] trying to make friends with [#brace,as r
 a love story between [an] [race] who [trait] and [an] [race] who [trait]
 [an] [|detailed|[age]] [|auto]biography of [name]
 [the legends of|the stories about] a legendary [weapon]
-a myth about [an] [mysterious|[age]|mystical] [[size]|color|[race]-eating|all-knowing|[weapon type]-wielding] monster that lives in [terrain type][s]
+a myth about [an] [mysterious|[age]|mystical] [[size]|color|[race]-eating|all-knowing|[weapon type]-wielding] [monster|[mythical creature]] that lives in [terrain type][s]
 tales from [an] [town type] in [an] [terrain type] far far away
 a story about a group of [|young] dwarves stumbling on a huge vein of [metal] ore {40%}
 the story of a beautiful woman who was cursed to [status] anyone that looks [at her|in her eyes] {20%}
@@ -922,20 +938,23 @@ a story about a group of [m races] stranded [on a desert island [where only [fru
 an epic story about [protagonist] [trying to save|saving] the world from [cataclysm]
 a story about [an] [race] going on [an] [epic|long|difficult] journey to master [skill]
 a story about [protagonist] trying to stop [an] [conflict|war|feud] between [races] and [races]
+a story about [protagonist] trying to [make friends with|tame] [an] [mythical creature]
+a collection of [myths|legends] about [mythical creature][s]
 
 $protagonist
 [an] [race]
 a [small|] [group|band] of [m races]
 a sentient [animal] {30%}
 the ghost of a dead [race] {20%}
+[an] [mythical creature] {20%}
 an artificial intelligence [|that just gained consciousness] {10%}
 
 $cataclysm
 the sky falling down
 the Sun [exploding|imploding]
 a deadly virus
-an evil [[[element]|] wizard|necromancer|demon] trying to [evil goal]
-an army of [evil|corrupted|twisted|possessed] [[races]|[animal][s]|[plant][s]] trying to [evil goal]
+an evil [[[element]|] wizard|necromancer|demon|[protagonist]] trying to [evil goal]
+an army of [evil|corrupted|twisted|possessed|zombified] [[races]|[animal][s]|[living creature][s]|[plant][s]] trying to [evil goal]
 
 $evil goal
 [take over|enslave the whole] the world
@@ -983,7 +1002,7 @@ $other item
 [length]-ranged grappling hook
 stone with some runes engraved in it
 can opener
-comb
+[plastic|[color]|[wood type]|[size]] comb
 toothbrush
 [tube|[liquid container]] of [mint|[fruit] flavoured|] toothpaste
 map of nearby [[terrain type][s]|cities]
@@ -1022,6 +1041,8 @@ piece of [paper|canvas] with a [painting|drawing|sketch] of [an] [[animal]|[plan
 [metal] horseshoe [ca]
 [[container] of|[uca]] [[metal]|[material]] nails
 [[size] drum|[wood type] [guitar|violin|mandolin|viola]|[metal] flute|[metal] [trumpet|trombone|bugle]]
+[light material] glider
+[[light material]|[large animal]] saddle
 
 
 
@@ -1217,6 +1238,7 @@ squash
 tomato
 cucumber
 [haunted|] pumpkin
+mandrake {10%}
 
 $herb
 basil
@@ -1275,6 +1297,7 @@ $armour material
 leather
 iron {50%}
 steel {25%}
+[material] {25%}
 [other material] {25%}
 [high-tech material] {20%}
 [element] cloth {15%}
@@ -1284,12 +1307,13 @@ ascended [armour material] {5%}
 $light material
 leather
 silk
+cotton
 wool
 fabric
 plastic {75%}
 aluminium {75%}
 foam {50%}
-[veryH] thin sheets [metal] {50%}
+[veryH] thin sheets of [metal] {50%}
 [other material] {50%}
 [high-tech material] {25%}
 [material] {15%}
@@ -1329,6 +1353,7 @@ magnesium
 copper
 tin
 bronze
+brass
 nickel
 zinc
 [element] [metal]
@@ -1563,8 +1588,9 @@ astronomy
 
 $animal
 [large animal]
-[small animal] {45%}
-[fish] {15%}
+[small animal] {50%}
+[fish] {25%}
+[mythical creature] {5%}
 
 $pet?
 []
@@ -1624,7 +1650,85 @@ $large animal skill
 [small animal skill]
 [#pet,as move,or run][, but not very| moderately| very| extremely| mind-bogglingly] fast
 
+$mythical creature
+[land creature]
+[water creature] {12%}
+[flying creature] {30%}
+[undead creature] {24%}
+[ghost] {12%}
 
+$living creature
+[land creature]
+[water creature] {9%}
+[flying creature] {27%}
+
+$land creature
+chupacabra
+cu sith
+hellhound
+werewolf
+were[animal]
+manticore
+sphinx
+basillisk
+[gorgon|medusa]
+hydra
+naga
+jackalope
+minotaur
+chimera
+unicorn
+lamia
+cerberus
+ifrit
+imp
+leprechaun
+rusalka
+wendigo
+yeti
+leshy
+tarasque
+warg
+T-rex
+triceratops
+velociraptor
+brachiosaurus
+giant [spider|praying mantis]
+
+$water creature
+sea serpent
+kraken
+leviathan
+siren
+
+$flying creature
+angel
+phoenix
+wyvenr
+dragon
+griffin
+harpy
+hippogriff
+thunderbird
+giant [mosquito|bee|wasp]
+pegasus
+pterodactyl
+
+$undead creature
+skeleton
+vampire
+zombie
+[zombified|undead] [[animal]|[living creature]]
+lich
+wight
+mummy
+ghoul
+
+$ghost
+ghost
+will-o-wisp
+poltergeist
+banshee
 
 
 //Terrain & weather\\ f_
@@ -1712,6 +1816,7 @@ forget-me-not
 
 $thing
 [animal]
+[mythical creature] {20%}
 [plant]
 [ingredient]
 [material]
