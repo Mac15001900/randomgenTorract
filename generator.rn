@@ -229,6 +229,7 @@ takes [an] [length] time to warm up to [people|strangers]
 [never|rarely] refuses a [good|fun|] challange {50%}
 secretly plots to one day [evil goal] {10%}
 finds [sitting around a campfire|a long journey|the heat of battle|working on something together|relaxing in a tavern|the middle of a night] to be the best time to socialise
+always [looks|seems] [veryH] suspicious {40%}
 
 
 $opinion
@@ -1406,11 +1407,19 @@ siltstone
 talc
 adamellite
 
+$soil
+dirt
+sand
+mud
+gravel
+grass
+snow
+
 $other material
 paper
 plastic
-sand
-stone
+[soil]
+[stone type]
 ink
 vacuum
 [element]
@@ -1424,6 +1433,7 @@ air
 silk
 ice
 [white|dark|milk] chocolate
+bricks
 
 
 $high-tech material
