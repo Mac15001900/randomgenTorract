@@ -22,7 +22,7 @@ $medieval last name
 [Strong|Tall|Grand|Bold|Big|Small|Fine|Good|Glad|Green|Blue|Red|Black|White|Pale|Gray|Gold|Silver|Dark|Light|Brave|Sly|Brisk|Sweet|Roy|Mont|Dingle][ington|son|house|door|castle|forest|tree|leaf|wind|rain|snow|rock|stone|river|sea|ship|smith|craft|cook|worth|might|wolf|bear|lion|sheep|pig|fox|hunt|dragon|apple|court|alyon|heart|iron|steel|tooth|mud|blood|bolt|quiver|ville|bow|berry|maw]
 [House|Door|Castle|Forest|Leaf|Wind|Rain|Snow|Rock|Ston|Riv|Ship|Smith|Craft|Cook|Might|Wolf|Bear|Lion|Sheep|Pig|Fox|Hunt|Dragon|Apple|Court|Brave|Gold|Brisk|Iron|Steel|Teeth|Mud|Blood|Bolt|Quiver|Bow|Raven][ington|ton|worth|forth|alyon|heart|grasp|ereaux|eaux|aux|art|ard|val|vale|el|ell|roy|loy|mont|ville|man|merry|maw]
 $medieval name
-[medieval first name] [medieval last name]
+[medieval first name] [medieval last name]`
 $future first name
 [Alice|Lola|Trillian|Zeria|Zinda|Myriad|Shosset|Tary|Wayt|Lovelace|Cassidy|Millanda|Replika|Simia|Mirrix|Bariona|Sossis|Kroassent|Five|Seven|Fourteen|Yonder|Biotin|Mix|Goo|Nebula|Digit|Radio|Emit]
 [Bob|Arthur|Zaphod|Zorvax|Zerebius|Borbon|Bradbury|Clarke|Isaac|Werber|Omni|Robion|Shossur|Alistor|Clonos|Sorbel|Boodin|Bagget|Three|Twelve|Twenty|Forward|Biotist|Blend|Goop|Nebulo|Numeral|Laser|Spectrum]
@@ -44,7 +44,7 @@ human {60%}{related:[[centaur|elf|dwarf|giant|[driad|nayad|robot]]]}
 [not human]
 
 $not human
-[dark|high|] elf {related:[draids|nayads]}
+[dark|high|] elf {related:[dryads|naiads]}
 dwarf {related:[halflings|golems]}
 goblin {60%}{related:[orcs|kobolds]}
 troll {60%}{related:[goblins|orcs]}
@@ -52,20 +52,20 @@ ogre {30%}{related:[trolls|orcs]}
 orc {60%}{related:[trolls|goblins]}
 golem {60%}{related:[robots|dwarves]}
 centaur {60%}{related:[golems|giants]}
-giant {40%}{related:[trolls|ogres]}
-satyr {40%}{related:[elfs|driads]}
+giant {40%}{related:[trolls|cyclopes]}
+satyr {40%}{related:[elves|dryads]}
 kobold {20%}{related:[goblins|orcs]}
 demon {20%}{related:imps}
 robot {20%}{related:[humans|giants]}
 mermaid {10%}{related:[tritons|[|flying] octopuses]}
 triton {10%}{related:[mermaids|[|flying] octopuses]}
 cyclops {20%}{related:[giants|trolls]}
-fairy {20%}{related:[elfs|gnomes]}
+fairy {20%}{related:[elves|gnomes]}
 gnome {20%}{related:[halflings|fairies]}
 halfling {20%}{related:[gnomes|dwarfs]}
 [flying|] octopus {10%}{related:mermaids}
-driad {10%}{related:[satyrs|nayads]}
-nayad {10%}{related:[satyrs|driads]}
+dryad {10%}{related:[satyrs|naiads]}
+naiad {10%}{related:[satyrs|dryads]}
 
 $race
 [race main]
@@ -74,7 +74,7 @@ half [race main] half [race main] {10%}
 
 // [race main][s] would yield 'humen'. Also, special powers are cooler vs non-humans, hence the lower percentage. Also, attribute bugs. Don't even ask.
 $races
-humans {35%}{related:[[centaurs|elfs|dwarves|giants|[driads|nayads|robots]]]}
+humans {35%}{related:[[centaurs|elves|dwarves|giants|[dryads|naiads|robots]]]}
 [not humans]
 
 //Multiple races, for book topics and stuff
@@ -88,7 +88,7 @@ $two races
 
 //Yes, this list is a thing. Attribute bugs left me no choice. Sigh.
 $not humans
-[dark|high|] elfs {related:[draids|nayads]}
+[dark|high|] elves {related:[dryads|naiads]}
 dwarves {related:[halflings|golems]}
 goblins {60%}{related:[orcs|kobolds]}
 trolls {60%}{related:[goblins|orcs]}
@@ -96,20 +96,20 @@ ogres {30%}{related:[trolls|orcs]}
 orcs {60%}{related:[trolls|goblins]}
 golems {60%}{related:[robots|dwarves]}
 centaurs {60%}{related:[golems|giants]}
-giants {40%}{related:[trolls|ogres]}
-satyrs {40%}{related:[elfs|driads]}
+giants {40%}{related:[trolls|cyclopes]}
+satyrs {40%}{related:[elves|dryads]}
 kobolds {20%}{related:[goblins|orcs]}
 demons {20%}{related:imps}
 robots {20%}{related:[humans|giants]}
 mermaids {10%}{related:[tritons|[|flying] octopuses]}
 tritons {10%}{related:[mermaids|[|flying] octopuses]}
-cyclopses {20%}{related:[giants|trolls]}
-fairies {20%}{related:[elfs|gnomes]}
+cyclopes {20%}{related:[giants|trolls]}
+fairies {20%}{related:[elves|gnomes]}
 gnomes {20%}{related:[halflings|fairies]}
 halflings {20%}{related:[gnomes|dwarfs]}
 [flying|] octopuses {10%}{related:mermaids}
-driads {10%}{related:[satyrs|nayads]}
-nayads {10%}{related:[satyrs|driads]}
+dryads {10%}{related:[satyrs|naiads]}
+naiads {10%}{related:[satyrs|dryads]}
 
 
 $gender
@@ -213,16 +213,16 @@ is a kleptomaniac {30%}
 is a megalomaniac {30%}
 is a pyromaniac {30%}
 is a workaholic {30%}
-has [no|a decent|a really good] sense of humor
+has [no|a decent|a really good] sense of humour
 believes that [[m races]|mages|[terrain type][s]|other worlds] don't exist {20%}
-is [somewhat pacifistic and prefers to solve problems peacefully|a pacifist and won't fight anyone unless in self defense|extremely pacifistic and will never fight anyone, even in self defense]
+is [somewhat pacifistic and prefers to solve problems peacefully|a pacifist and won't fight anyone unless in self defense|extremely pacifistic and will never fight anyone, even in self defence]
 is [veryH] paranoid
 has a favourite [color - [color]|animal - [animal]|flower - [flower]|plant - [plant]]
 [enjoys] adding [ingredient] to their food
 [enjoys] telling [story]
 has a split personality; the other one [trait] {50%}
 thinks that [opinion]
-instantly [trusts|distrusts] anyone [[not|] capable of [skill]|who [likes|dislikes] their cooking|who compliments them|with [color] [hair|skin]|with a good sense of humor] {60%}
+instantly [trusts|distrusts] anyone [[not|] capable of [skill]|who [likes|dislikes] their cooking|who compliments them|with [color] [hair|skin]|with a good sense of humour] {60%}
 takes [an] [length] time to warm up to [people|strangers]
 [enjoys] [socialising|getting to know people] by [playing [board game type] board games|singing|telling [spooky|] stories|inventing crazy stories|complaining about life|practising [skill]] together
 [cannot experience [emotion]|experiences [emotion] very strongly] {20%}
@@ -252,8 +252,8 @@ their [skeleton|stomach|liver|back] is conspiring against them
 $weapon
 [weapon adj] [[material]|[metal]] [sword type][[enchanted?]|]
 [weapon adj] gun that [can shoot|shoots] [projectile  adj] [projectile] [gun adv]
-[weapon adj] [element][-[element]|||] [scepter|rod|wand]
-[weapon adj] [wood type] [short|long|]bow[ infused with [[material]|[element]]|||][, with [element] arrows||] {50%}
+[weapon adj] [element][-[element]|||] [sceptre|rod|wand]
+[weapon adj] [wood type] [short|long|cross|]bow[ infused with [[material]|[element]]||][, with [element] arrows||] {50%}
 [weapon adj] [[color]|[element]|[science]] laser {50%}
 [weapon adj] [projectile] thrower {30%}
 [weapon adj] crystal of [applied||] [science] {25%}
@@ -339,7 +339,7 @@ dagger {20%}
 club {45%}
 bow
 gun {20%}
-[scepter|rod|wand]
+[sceptre|rod|wand]
 battle stick {25%}
 science crystal
 
@@ -1021,7 +1021,7 @@ throwable [CD|DVD|Blue-ray] disc [ca]
 [size] [rubber|eraser]
 [|levitating] ball that emits [an] [weak|strong] [|[color]] light
 [condition] pair of [||[color]|[emotion]] goggles
-[condition] jetpack [fueled by [fuel]|that's [powered by]]
+[condition] jetpack [fuelled by [fuel]|that's [powered by]]
 plush [animal]
 stuffed [small animal]
 d[4|6|12|20|100|[1-20]|[1-100]] dice [ca]
@@ -1160,7 +1160,7 @@ orange
 lemon
 watermelon
 avocado
-bloomberry
+bloodberry
 [element][fruit|berry]
 [stat]fruit
 
@@ -1418,7 +1418,7 @@ vacuum
 [[animal]|] [leather|fur|bones|hair]
 [rotten||] [[animal]|] flesh
 concrete
-[wood type] [logs|branches|leafs|planks]
+[wood type] [logs|branches|leaves|planks]
 earth
 air
 silk
@@ -1438,7 +1438,7 @@ energy
 laser
 living [[metal]|[high-tech material]]
 force [field|]
-[carbon|[metal]|] nano-tubes
+[carbon|[metal]|] nanotubes
 electricity
 neutronium
 [solid element]
@@ -1473,10 +1473,10 @@ $periodic element
 [gas element] {11%}
 
 $liquid element
-[bromine|mercury|francium|cesium|gallium|rubidium]
+[bromine|mercury|francium|caesium|gallium|rubidium]
 
 $solid element
-[lithium|yttrium|neodymium|thorium|beryllium|zirconium|promethium|protactinium|boron|niobium|samarium|uranium|carbon|molybdenum|europium|neptunium|sodium|technetium|gadolinium|plutonium|magnesium|ruthenium|terbium|americium|aluminum|rhodium|dysprosium|curium|silicon|palladium|holmium|berkelium|phosphorus|silver|erbium|californium|sulfur|cadmium|thulium|einsteinium|potassium|indium|ytterbium|nickel|calcium|tin|gold|copper|scandium|antimony|thallium|zinc|titanium|tellurium|lead|vanadium|iodine|bismuth|germanium|chromium|polonium|arsenic|manganese|barium|astatine|selenium|iron|lanthanum|cobalt|cerium|radium|lutetium|strontium|praseodymium|actinium|hafnium|tantalum|tungsten|rhenium|osmium|iridium|platinum]
+[lithium|yttrium|neodymium|thorium|beryllium|zirconium|promethium|protactinium|boron|niobium|samarium|uranium|carbon|molybdenum|europium|neptunium|sodium|technetium|gadolinium|plutonium|magnesium|ruthenium|terbium|americium|aluminium|rhodium|dysprosium|curium|silicon|palladium|holmium|berkelium|phosphorus|silver|erbium|californium|sulfur|cadmium|thulium|einsteinium|potassium|indium|ytterbium|nickel|calcium|tin|gold|copper|scandium|antimony|thallium|zinc|titanium|tellurium|lead|vanadium|iodine|bismuth|germanium|chromium|polonium|arsenic|manganese|barium|astatine|selenium|iron|lanthanum|cobalt|cerium|radium|lutetium|strontium|praseodymium|actinium|hafnium|tantalum|tungsten|rhenium|osmium|iridium|platinum]
 
 $gas element
 [hydrogen|chlorine|krypton|nitrogen|helium|xenon|oxygen|neon|radon|fluorine|argon]
@@ -1505,7 +1505,7 @@ using [[sword type][s]|white weapons]
 archery
 fletching
 [element] magic
-[brawling|wrestling|fist fighting|boxing|karate|aikido|judo|ninjitsu|capoiera]
+[brawling|wrestling|fist fighting|boxing|karate|aikido|judo|ninjutsu|capoeira]
 setting traps [|for [large animal][s]|for [m races]]
 [spotting|disarming] traps
 [||teaching] [science]
@@ -1516,7 +1516,7 @@ hypnosis {20%}
 mind-reading {5%}
 [tracking|hunting|cooking|taming|breeding] [animal][s]
 [taming|riding|arming|handling] [large animal][s]
-cooking [||[animal][s]]
+cooking [||[meat]|[animal][s]]
 brewing [[stat]|[emotion]] potions
 brewing poisons
 [forging|crafting|using] [|[metal]] [sword type][s]
@@ -1525,7 +1525,7 @@ brewing poisons
 interrogating [[m races]|]
 [producing|manufacturing|mining|processing|crafting with] [metal]
 seeing in the dark
-navigation [|[terrain type][s]] [||using [element]]
+navigation [|in [terrain type][s]] [||using [element]]
 surviving in [terrain type][s]
 [creative|technical] writing
 flirting [|with [m races]]
@@ -1534,8 +1534,9 @@ sailing
 swimming
 [scuba|] diving [|for [an] [length] amount of time]
 driving [cars|tanks|trains|horse carts] {30%}
-riding [bikes|motorcycles|horses|[animal][s]] {30%}
-piloting [helicopters|autogyros|planes|UFOs|spaceships] {20%}
+riding [bikes|motorcycles|horses|[large animal][s]] {30%}
+piloting [helicopters|autogyros|planes|UFOs|spaceships] {30%}
+operating [tanks|airships|submarines|combat mechs|power armour] {30%}
 healing [||using [element]]
 camouflage [||using plants|using [[element]|magic|[science]]]
 leadership
@@ -1551,27 +1552,26 @@ climbing [mountains|trees|huge creatures|]
 computer [programming|hacking] {20%}
 dancing
 [gardening|farming|growing [plant][s]]
-handling [dangerous|hazardous|deadly] [chemicals|creatures|magical artifacts]
+handling [dangerous|hazardous|deadly] [chemicals|creatures|magical artefacts]
 housekeeping
-jewelery
+jewellery
 tying knots
 [linguistics|translation]
 [economics|market analysis|investing]
-savoir-faire [of [races]|]
+savoir-faire [of [m races]|]
 [[roller|] skating|skiing]
 magic tricks
 smuggling
 speed reading
 playing [football|basketball|volleyball|hockey|Cookie Clicker|tennis ]
 //Why does tennis have a spacebar after it? It's a long story (but TLDR, it avoids a bug)
-operating [tanks|planes|airships|submarines|combat mechs] {50%}
 [first aid|medicine|surgery]
 [drawing|painting] [|portraits|still life|animals|landscapes|[races]|[terrain type][s]]
 lock picking
 origami
 meditation
 astronomy
-[therapy|counseling]
+[therapy|counselling]
 
 
 
@@ -1597,8 +1597,8 @@ $pet?
 <b>Riding:</b> [an] [[body]|] [large animal,#pet] that can [large animal skill]<br> {20%}
 <b>Pet:</b> [an] [[body]|] [small animal,#pet] that can [#pet,as skill]<br> {20%}
 
- 
-//'Large' means that you can ride it. Default move value: run
+
+//'Large' means that you can ride it (or try to). Default move value: run
 $large animal
 horse
 bear
@@ -1611,6 +1611,8 @@ space cow						{move: fly}
 [invisible||] [pink|[color]|] unicorn {25%}
 animated [chair|table|bench]	{move: fly}
 rhino
+giraffe
+lion
 land whale 						{move: slither}{50%}
 dragon 							{move: fly}{2%}
 
@@ -1704,7 +1706,7 @@ siren
 $flying creature
 angel
 phoenix
-wyvenr
+wyvern
 dragon
 griffin
 harpy
