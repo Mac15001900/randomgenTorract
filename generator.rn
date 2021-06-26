@@ -152,7 +152,7 @@ endurance
 luck
 elemental magic
 
-//Appearence\\ f_
+//Appearance\\ f_
 
 //Turns out coming up with appearance attributes that would work with every race is... rather hard. They don't even all have legs!
 
@@ -162,9 +162,9 @@ is [veryI] muscular
 looks [veryI] attractive
 is [veryH] [short|tall]
 has [length] [hair color] hair
-has [an] [black|[color]|colorful] tatoo of [an] [mythical creature]
+has [an] [black|[color]|colorful] tattoo of [an] [mythical creature]
 has vividly [color] eyes
-has [an] [small|[color] [||glowing]|wirdly shapes] scar across their [face part]
+has [an] [small|[color] [||glowing]|weirdly shapes] scar across their [face part]
 wears an eyepatch on the [right|left] eye {20%}
 
 
