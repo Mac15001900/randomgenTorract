@@ -152,12 +152,38 @@ endurance
 luck
 elemental magic
 
+//Appearence\\ f_
+
+//Turns out coming up with appearance attributes that would work with every race is... rather hard. They don't even all have legs!
+
+$physical trait
+is [veryH] [slim|fat]
+is [veryI] muscular
+looks [veryI] attractive
+is [veryH] [short|tall]
+has [length] [hair color] hair
+has [an] [black|[color]|colorful] tatoo of [an] [mythical creature]
+has vividly [color] eyes
+has [an] [small|[color] [||glowing]|wirdly shapes] scar across their [face part]
+wears an eyepatch on the [right|left] eye {20%}
+
+
+
+$face part
+[right|left] eye
+[right|left] ear
+nose
+mouth
+chin
+forehead
+[right|left] cheek
+
+
 $hair color
 [light|dark|] brown
 blonde {80%}
 red {40%}
-[color] {30%}
-
+[color] {40%}
 
 //Personality\\ f_
 
@@ -186,6 +212,7 @@ $trait element
 $>trait
 [attitude] [[m races]|[[animal][s]|[plant][s]]|[terrain type][s]|things made out of [material]]
 [[attitude]|[enjoys]|[always wanted|really wants] to learn|is [veryH] passionate about|[attitude] people capable of] [skill]
+is [[veryH]|] fascinated with [[mythical creature][s]|[thing][s]]
 [sometimes|often|always] talks to [plants|animals|[animal][s]]
 [attitude] being around [other people|[m races]]
 [always carries around their favourite|has a sentimental attachment to [an]] [other item] {50%}
@@ -632,6 +659,7 @@ makes the caster drunk
 makes the caster strongly attracted to [[m races]|anything [color]|the nearest [person|enemy]] for a while
 makes the caster's skin turn [color] for a while
 requires [2-5] mages working simultaneously to cast
+requires [an] [eye|bone|brain] of [an] [material creature] to cast
 
 $spell disaster
 make the caster [explode|implode]
@@ -1492,16 +1520,18 @@ $gas element
 [hydrogen|chlorine|krypton|nitrogen|helium|xenon|oxygen|neon|radon|fluorine|argon]
 
 $particle
-[anti|]neutrino
+[muon|tau|] [anti|]neutrino
 [electron|positron]
-[anti|]proton
 [anti|]muon
 [anti|]tauon
-[anti|]lepton
-[anti|]graviton
-[anti|]gluon
-[anti|]photon
-//Antiphotons, yes, because reasons
+[anti|]proton
+[anti|]neutron
+graviton
+gluon
+[Z|W|Higgs] boson
+[up|down|charm|strange|top|bottom] [anti|]quark
+photon
+
 
 
 //Skills\\ f_
@@ -1629,6 +1659,7 @@ dragon 							{move: fly}{2%}
 $small animal
 squirrel					{skill: [small animal skill]}
 cat							{skill: [small animal skill]}
+[dog|wolf]                  {skill: [small animal skill]}
 rat							{skill: [small animal skill]}
 aious						{skill: [small animal skill]}
 [element] [dragon|]fly		{skill: [cast [simple|normal|complex] [element] [||and [element]] spells]}
@@ -1669,10 +1700,16 @@ $mythical creature
 [undead creature] {24%}
 [ghost] {12%}
 
+$material creature
+[land creature]
+[water creature] {12%}
+[flying creature] {30%}
+[undead creature] {24%}
+
 $living creature
 [land creature]
-[water creature] {9%}
-[flying creature] {27%}
+[water creature] {12%}
+[flying creature] {30%}
 
 $land creature
 chupacabra
