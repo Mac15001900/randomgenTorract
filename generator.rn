@@ -22,7 +22,7 @@ $medieval last name
 [Strong|Tall|Grand|Bold|Big|Small|Fine|Good|Glad|Green|Blue|Red|Black|White|Pale|Gray|Gold|Silver|Dark|Light|Brave|Sly|Brisk|Sweet|Roy|Mont|Dingle][ington|son|house|door|castle|forest|tree|leaf|wind|rain|snow|rock|stone|river|sea|ship|smith|craft|cook|worth|might|wolf|bear|lion|sheep|pig|fox|hunt|dragon|apple|court|alyon|heart|iron|steel|tooth|mud|blood|bolt|quiver|ville|bow|berry|maw]
 [House|Door|Castle|Forest|Leaf|Wind|Rain|Snow|Rock|Ston|Riv|Ship|Smith|Craft|Cook|Might|Wolf|Bear|Lion|Sheep|Pig|Fox|Hunt|Dragon|Apple|Court|Brave|Gold|Brisk|Iron|Steel|Teeth|Mud|Blood|Bolt|Quiver|Bow|Raven][ington|ton|worth|forth|alyon|heart|grasp|ereaux|eaux|aux|art|ard|val|vale|el|ell|roy|loy|mont|ville|man|merry|maw]
 $medieval name
-[medieval first name] [medieval last name]`
+[medieval first name] [medieval last name]
 $future first name
 [Alice|Lola|Trillian|Zeria|Zinda|Myriad|Shosset|Tary|Wayt|Lovelace|Cassidy|Millanda|Replika|Simia|Mirrix|Bariona|Sossis|Kroassent|Five|Seven|Fourteen|Yonder|Biotin|Mix|Goo|Nebula|Digit|Radio|Emit]
 [Bob|Arthur|Zaphod|Zorvax|Zerebius|Borbon|Bradbury|Clarke|Isaac|Werber|Omni|Robion|Shossur|Alistor|Clonos|Sorbel|Boodin|Bagget|Three|Twelve|Twenty|Forward|Biotist|Blend|Goop|Nebulo|Numeral|Laser|Spectrum]
@@ -288,7 +288,7 @@ $weapon
 [[weapon adj]|[length]] [wood type] [battle|[element]|] stick {25%}
 [[weapon adj]|[length]] [wood type] [spear|pike|sarissa] with [an] [[metal]|[material]] tip {25%}
 [weapon adj] [metal] [metal tool] {25%}
-[weapon adj] sling using [pebbles|[color] marbles|[stone type]|[balls|pieces of] [element]|[projectile]] as ammunition {25%}
+[weapon adj] sling using [pebbles|[color] marbles|[stone type]|[balls|pieces] of [element]|[projectile]] as ammunition {25%}
 [weapon adj] [[wood type]|[material]] boomerang {20%}
 [[weapon adj]|[length]] blowpipe with [[element] darts|darts that cause [toxin effect]] {20%}
 [[weapon adj]|[thick|heavy|well-balanced|massive|large|weighty|considerable]] [[wood type]|[material]] club {25%}
