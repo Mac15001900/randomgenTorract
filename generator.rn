@@ -264,7 +264,7 @@ $opinion
 painting vehicles red makes go them faster
 there must be a way to understand magic with science
 science is [probably|] just a type of magic
-[food] curses [[status][s]|diseases|cancer|anything]
+[food] causes [[status][s]|diseases|cancer|anything]
 only [crazy people|madmen|[veryH] weird people] enjoy [skill]
 [animal][s] are secretly [robots|spying on them|very convincing illusions]
 they live in a simulation
@@ -294,7 +294,9 @@ $weapon
 [[weapon adj]|[thick|heavy|well-balanced|massive|large|weighty|considerable]] [[wood type]|[material]] club {25%}
 [clublike object] used as a club {20%}
 [weapon adj] [metal] yo-yo [with spikes|that's on fire|enchanted with [element]] {10%}
+[[weapon adj]|heavy|[size]] [metal] wrench [|with a sharpened edge] {10%}
 bare [hands|fists] {20%}
+[[color]|[size]] Super Soaker filled with [water|[liquid]] {10%}
 
 $weapon adj
 [deadly|lethal]
@@ -395,6 +397,10 @@ $secondary weapon
 
 $helmet
 [armour adj] [armour material] helmet 
+[an] [[color]|] [leather|cotton|straw|[light material]] hat {30%}
+a [long|tall|] pointy [color] hat decorated with [color] [stars|[races]|[thing][s]] {20%}
+[an] [metal] [pan|pot|saucepan] {20%}
+
 
 
 $armour
@@ -411,7 +417,7 @@ heavy
 light
 [well|finely] crafted
 [age]
-[used up|damaged]
+[used up|damaged|[condition]]
 
 $ring
 [magical|[usefulness]|] [[metal]||] ring of [element]
@@ -540,21 +546,21 @@ sends [an] [element] projectile that bounces between [ca2] enemies
 sends [an] [thin|thick] beam of [energy|[element]|[science]] that [stops at the [first|second|third] enemy it hits|pierces through enemies|follows a curved path|disperses quickly]
 sends [an] [metal] chain that [attaches to|immobilises|snares|slows] an enemy
 sends out [an] [[metal]|[element]|steel] chain that binds [two|three|four] closest enemies together
-enchants [arrows|bullets|any projectiles] to [[status] the target|explode on impact|pass through [walls|shields]]
+enchants [arrows|bullets|any projectiles] to [[status] the target|explode on impact|pass through [walls|shields|[stone type]|[soil]]]
 [sends|bursts] a cone of [element][||| and [element]]
-pulls an enemy to the caster [|using a conjured [[metal]|[element]] hook]
 launches a burst of [element] around the caster
+pulls an enemy to the caster [|using a conjured [[metal]|[element]] hook]
 makes [an] [size] [ball|projectile made out|clump] of [element] fall from the sky [|after [an] [brief|[length]] delay]
 [hurls|throws] [an] [conjured|summoned] [metal] [[sword type]|spear|axe] with [an] [slow|moderate|fast|incredible] speed
-[summons|blasts] [an] [size] cloud of [dust|[color] gas|carbon dioxide|sand] to blind any enemies inside it
+[summons|blasts] [an] [size] cloud of [dust|[color] gas|sand] to blind any enemies inside it
 summons [an] [size] minefield [composed of|made out of] [little|tiny|small|large] [[element] mines|[TNT|gunpowder]-based mines|invisible mines]
 summon [an] [size] thundercloud that hits [all enemies|everybody|anything] within [length] radius with lightnings
 pushes enemies away with a strong pulse of [wind|air|[element]]
 creates [an] [size] area that [status][s] [all enemies|everyone] inside it [|and causes [an] [status] if they stay inside it for too long]
-sets [an] [magical|invisible|barely visible] trap that [explodes [|with [element]]|emits an incredibly [loud|high-pitched] sound|sprays a toxin that causes [toxin effect]] when [somebody|an enemy] [gets close|steps on it]
+sets [an] [magical|invisible|barely visible] trap that [explodes [|with [element]]|emits an incredibly [loud|high-pitched] sound|sprays a toxin that causes [toxin effect]] when [somebody|an enemy] [gets close to|steps on] it
 launches [an] [speed] [element] [missile|projectile] that homes on to [a random|any|any chosen] [enemy|moving thing|[race]]
 summons [an] [size] rain of [[projectile adj] [|[element]] arrows|[metal] [spikes|rods]|angry cats and dogs|a corrosive [acid|base]|[element]]
-summons [an] [size] wrecking ball made out of [metal] that makes [a swing|[two swings|three swings]] hitting [spell multi target] and disappears
+summons [an] [size] wrecking ball made out of [metal] that makes [a swing|[two|three] swings] hitting [spell multi target] and disappears
 sends out [an] [gigantic|enormous] [[material]|] arrow that [slowly|steadily|quickly] flies [in s straight line|only slightly affected by gravity] and causes [an] [size] explosion [|of [element]] on impact
 sends out a flock of [rockets|missiles] that home in on [nearby enemies|random objects around|a chosen target] and [some|may|all] create a special field on impact that [ose]
 throws [an] [size] ball of [energy|[element]] that passes through enemies and then returns to the caster, dealing additional [element] damage on its way back
@@ -564,6 +570,8 @@ makes [spell multi target] [somewhat|very|really|incredibly] [hungry|tired]
 summons [an] [large|huge|[size]] wave of [liquid] moving [in a chosen direction|towards enemies|towards [spell multi target]]
 [disables|weakens|distorts] enemy sense of [sense]
 [throws|hurls] [spell multi target] [[veryH] high up in the air|[[very] far away from|towards] the caster]
+summons a [giant|[big]] floating glass lens that can focus sunlight on a chosen point
+
 
 
 $offensive spell
@@ -578,7 +586,7 @@ $defensive personal spell effect
 [raises|increases|boosts|enhances] [stat] [|for [an] [length] [amount|period]  of time]
 boosts the [strength|power|range|effect range] of [caster's|allied] spells {30%}
 protects from [[status]|[element]|[science]]
-heals [[status]|wounds|psychical damage]
+heals [[status]|wounds|physical damage|psychic damage|emotional damage]
 
 $defensive spell
 a spell that [dpse]
@@ -586,13 +594,14 @@ a spell that [dpse] in [an] [length] radius {40%}
 a spell that [dpse] using [element] {30%}
 a counterspell that can negate an enemy [[element]||] spell 
 a powerful counterspell that can negate an enemy spell and [spell disaster] {20%}
+a spell that take away control over summoned creatures from their summoner [|and makes those creature attack [each other|the nearest target|that summoner]|and gives in to the caster] {40%}
 a spell that creates temporary [armour adj] armour made out of [element] {40%}
 a spell that creates [an] [force|[element]] shield with [an] [length] radius {40%}
 a spell that creates [an] [|[armour adj]] [material] [wall|barricade|cover|tower] {40%}
 a spell that creates a barrier that can [reflect|deflect] [some|weak|weaker] enemy [spells|projectiles] {40%}
 a spell that creates [a mirror image|[2-5] mirror images] of the caster to confuse enemies {40%}
 a defensive spell that turns [the caster's|someone's] skin to [stone|[stone type]] while [not causing any encumberence|only causing slight encumberence] {40%}
-a spell that makes the caster disappear for [spell duration]
+a spell that makes the caster disappear for [spell duration] {40%}
 
 
 
@@ -600,7 +609,7 @@ a spell that makes the caster disappear for [spell duration]
 $utility spell
 a spell that [conjures|summons] [an] [item]
 a spell that conjures [element] {50%}
-a spell that summons [an] [animal] {50%}
+a spell that summons [an] [[animal]|[mythical creature]] {50%}
 a spell that repairs [weapon type][s] {50%}
 a [length]-range spell that teleports the caster [to a chosen destination|randomly|away from danger|to an ally|towards the nearest [terrain type]] {30%}
 a spell that [conjures|summons] [an] [magical|flying|[color]] [train|bus|[horse|[large animal]] carriage] that can carry passengers [away to safety|to the nearest battle|to the nearest [terrain type]|away in a random direction|to a chosen [distance] spot] {30%}
@@ -618,22 +627,24 @@ a transmutation spell that turns [animal][s] into [animal][s] {20%}
 a transmutation spell that turns [metal] into [metal] {30%}
 a transmutation spell that turns [m races] into [races] {15%}
 a transmutation spell that turns [thing][s] into [thing][s] {20%}
-a spell that summons [an] [muse|parrot|floating mouth|[animal]] which sings [beautiful|soothing|energetic|terrible] songs in [voice tone] {20%}
-a spell that turns all the water with [an] [length] range into [green|black|[color]|nice|great] tea {5%}
+a spell that summons [an] [muse|parrot|floating mouth|[animal]] which sings [beautiful|soothing|energetic|encouraging|terrible] songs in [voice tone] {20%}
+a spell that turns all the water with [an] [length] range into [green|black|[color]|[very] hot|[quality]] tea {10%}
 a spell that grants the caster 360° vision {30%}
-a spell that allows the caster to see [in infrared|in ultraviolet|in the dark|ghosts] {50%}
+a spell that allows the caster to see [in the dark|[in infrared|in ultraviolet|in infrared and ultraviolet]|[ghosts|[ghost][s]]] {50%}
 a spell that makes any food taste like [[ingredient]|[ice cream flavour]] {25%}
 a spell that turns [an object|a person] [color] [for [spell duration]|temporarily|permanently] {25%}
 a spell that makes an object [much|] [smaller|bigger] [for [spell duration]|temporarily|permanently] {25%}
-an illusion spell that conjures an image of [an] [[armed|] [body] [race]|[animal]|[plant]|[extreme weather]] {50%}
+an illusion spell that conjures [an] [[size]|[color]|[very] accurate|] image of [an] [[armed|] [body] [race]|[animal]|[mythical creature]|[extreme weather]|[thing]] {50%}
 a spell that [paints|conjures] [an] [nice|beautiful|terrible|[color]] portrait of [a target|the caster] {25%}
-a spell that tells the caster what time is it {15%}
-a spell that [summons|conjures] [an] [[size]|[color]|transparent] image of a compass that points to [the nearest battle|the nearest [terrain type]|the thing the caster desires the most|the nearest source of [water|food|[element]|[material]]|a chosen [city|person|place]] {30%}
+a spell that tells the caster what time it is {15%}
+a spell that [summons|conjures] [an] [[size]|[color]|transparent] image of [an] [compass|arrow] that points to [the nearest battle|the nearest [terrain type]|the thing the caster desires the most|the nearest source of [water|food|[element]|[material]]|a chosen [city|person|place]] {30%}
 a spell that cooks [an] [quality] [dish|soup] out of any available ingredients [|and conjures some matching spices] {30%}
 a spell that can make [an] [size] object [nearly|almost|] weightless {30%}
 a spell that [waters|fertilises] all [plants|[plant][s]] in [an] [length] radius {30%}
 a spell that makes [plants|[plant][s]] grow [faster|bigger] {30%}
 a spell that allows [the caster|the target] to breathe [underwater|in [liquid]] [|for [an] [length] time] {30%}
+a spell that allows [the caster|the target] to walk through [[element]|[stone type]] [nearly|] unobstructed {30%}
+a spell that [temporarily|pernamently] grants the [caster|target] [mastery in|[quality] skill at|basic knowledge of] [skill] {30%}
 
 
 
@@ -658,6 +669,7 @@ turns the caster into [an] [plant] for [spell duration] after it finishes
 makes the caster drunk
 makes the caster strongly attracted to [[m races]|anything [color]|the nearest [person|enemy]] for a while
 makes the caster's skin turn [color] for a while
+makes the caster's skin glow with [color] light [for a while|while casting]
 requires [2-5] mages working simultaneously to cast
 requires [an] [eye|bone|brain] of [an] [material creature] to cast
 
@@ -712,7 +724,7 @@ a bunch of
 a lot of
 a ton of {35%}
 
-//Words synonymous with 'very', but in various intensities. E.g. "this building is [very] tall and [very] important"
+//Words synonymous with 'very', but in various intensities, including negative ones. E.g. "this building is [very] tall and [very] important"
 $very
 slightly
 kind of
@@ -767,7 +779,7 @@ huge
 enormous
 gigantic
 
-//E.g. spell that allows you to see what is happening [distanceAdv]
+//Distance adverb, e.g. "spell that allows you to see what is happening [distanceAdv]"
 $distanceAdv
 nearby
 [[very]|] close
@@ -775,7 +787,7 @@ not so far away
 [[veryH]|] far away
 in a distance {50%}
 
-//E.g. spell that allows you to see [distance] future
+//Distance adjective, e.g. "spell that allows you to see [distance] future"
 $distance
 near
 close
@@ -846,7 +858,8 @@ magic
 petroleum {50%}
 biofuel {30%}
 caffeine {30%}
-[[race]|[animal]|virgin] blood {20%}
+[[race]|[animal]|[material creature]|virgin] blood {20%}
+[flower] [nectar|petals] {20%}
 energy drinks {10%}
 
 //Thing that's [powered by]
@@ -857,8 +870,8 @@ powered by a mechanical crank {75%}
 powered by [element] [|| and [element]] {50%}
 noise-powered {50%} 
 powered by singing in [voice tone] {20%} 
-powered by [an] [simple|difficult|[3-10] day|arcane] ritual requiring [item] {30%}
-powered by sacrificing [animal][s] {25%}
+powered by [an] [simple|difficult|[3-10] day|arcane] ritual requiring [[item]|[thing]] {30%}
+powered by sacrificing [[animal][s]|[an] [mythical creature]] {25%}
 
 
 //Items\\ f_
@@ -918,10 +931,16 @@ $board game type
 strategic
 economic
 war
+party
+cooperative
+negotiation
 real-time
 [[2-6]|[2-15]] players
-funny
-suspicious
+[weird|strange]
+funny {50%}
+suspicious {50%}
+educational {50%}
+
 
 $emotion
 happiness
@@ -949,6 +968,7 @@ the [relations|trade|historical battles] between [two races] {60%}
 playing [board game type] board games [|competitively] {30%}
 [parenting|raising|taking care of [young|old]] [races] {30%}
 [functioning|fighting|helping those] without the sense of [sense] {30%}
+[mythical creature][s] {50%}
 
 //e.g. Book with [story]
 $story
@@ -990,7 +1010,7 @@ $evil goal
 [kill|steal the life force of] every [race]
 destroy [all magic|everything that's magical|all magic users]
 remove all oxygen from the atmosphere {50%}
-put [ingredient] on every pizza {5%}
+put [pineapple|[ingredient]] on every pizza {5%}
 
 
 $color
@@ -1073,10 +1093,7 @@ piece of [paper|canvas] with [an] [painting|drawing|sketch] of [an] [[animal]|[p
 [light material] glider
 [[light material]|[large animal]] saddle
 [size] [color] baloon [|filled with [helium|[gas element]]]
-
-
-
-
+[bundle of|quiver [partially|] filled with] [wood type] arrows with [metal] tips
 
 
 
@@ -1440,9 +1457,11 @@ $soil
 dirt
 sand
 mud
+clay
 gravel
 grass
 snow
+peat {33%}
 
 $other material
 paper
@@ -1463,9 +1482,11 @@ silk
 ice
 [white|dark|milk] chocolate
 bricks
+[material creature] [teeth|bones|flesh]
 
 
 $high-tech material
+kevlar
 [white|dark|red|[color]|grey|jar-jar] matter
 vacuum
 [particle] concentrate
@@ -1625,7 +1646,7 @@ astronomy
 
 
 
-//Animals\\ f_
+//Animals and creatures\\ f_
 
 $animal
 [large animal]
@@ -1671,10 +1692,11 @@ snake                       {skill: [sneak up to an enemy an bite them, injectin
 flying fish					{skill: [small animal skill]}
 cannis						{skill: [small animal skill]}
 chicken                     {skill: [small animal skill]}
+beaver                      {skill: [[build|construct] [small|simple|basic|complex] wooden structures]}
 wild plasma ball			{skill: [emit [|faint|weak|strong] [|[color]] light in the dark|throw small blobs of plasma]}
 
 $fish
-[anchovies|catfish|clam|crab|crawfish|flounder|haddock|herring|mackerel|mullet|oyster|perch|pollock|salmon|sardine|scallop|shrimp|sole|squid|tilapia|trout|whitefish|cod|salmon]
+[anchovy|catfish|clam|crab|crawfish|flounder|haddock|herring|mackerel|mullet|oyster|perch|pollock|salmon|sardine|scallop|shrimp|sole|squid|tilapia|trout|whitefish|cod|salmon]
 
 $animal adj
 [body]
@@ -1750,6 +1772,7 @@ sea serpent
 kraken
 leviathan
 siren
+giant [fish]
 
 $flying creature
 angel
@@ -1866,7 +1889,7 @@ forget-me-not
 
 $thing
 [animal]
-[mythical creature] {20%}
+[mythical creature] {40%}
 [plant]
 [ingredient]
 [material]
