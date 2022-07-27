@@ -212,7 +212,7 @@ $trait element
 $>trait
 [attitude] [[m races]|[[animal][s]|[plant][s]]|[terrain type][s]|things made out of [material]]
 [[attitude]|[enjoys]|[always wanted|really wants] to learn|is [veryH] passionate about|[attitude] people capable of] [skill]
-is [[veryH]|] fascinated with [[mythical creature][s]|[thing][s]]
+is [[veryh]|] fascinated with [[mythical creature][s]|[thing][s]]
 [sometimes|often|always] talks to [plants|animals|[animal][s]]
 [attitude] being around [other people|[m races]]
 [always carries around their favourite|has a sentimental attachment to [an]] [other item] {50%}
@@ -773,8 +773,8 @@ gigantic {25%}
 
 $big
 sizeable
-[[veryH]|] big
-[[veryH]|] large
+[[veryh]|] big
+[[veryh]|] large
 huge
 enormous
 gigantic
@@ -784,7 +784,7 @@ $distanceAdv
 nearby
 [[very]|] close
 not so far away
-[[veryH]|] far away
+[[veryh]|] far away
 in a distance {50%}
 
 //Distance adjective, e.g. "spell that allows you to see [distance] future"
@@ -793,7 +793,7 @@ near
 close
 not [so|] far
 far
-[[veryH]|] distant
+[[veryh]|] distant
 remote {50%}
 
 $age
